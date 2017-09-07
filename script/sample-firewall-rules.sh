@@ -1,4 +1,12 @@
 #!/bin/sh
+
+# beta activate
+gcloud components install beta
+
+# Cloud SDK update
+gcloud components update
+
+# Project set for Cloud SDK
 PROJECT_ID=YOUR_PROJECT_ID
 gcloud config set project $PROJECT_ID
 

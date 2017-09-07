@@ -1,11 +1,10 @@
 package demo
 
 import (
-	"google.golang.org/appengine"
-
 	"fmt"
 	"net/http"
 
+	"google.golang.org/appengine"
 	"google.golang.org/appengine/log"
 )
 
