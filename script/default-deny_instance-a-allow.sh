@@ -13,5 +13,5 @@ gcloud beta app firewall-rules update default \
 # instance-a allow
 gcloud beta app firewall-rules update 1 \
 --action=allow \
---source-range='35.187.213.186' \
+--source-range='35.187.194.104' \
 --description='default -> deny, instance-a -> allow'
