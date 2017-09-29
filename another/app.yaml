@@ -1,0 +1,9 @@
+application: YOUR_PROJECT_ID
+version: X
+runtime: go
+api_version: go1.8
+service: another
+
+handlers:
+- url: /.*
+  script: _go_app
